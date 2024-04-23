@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins';
+}
+
+main{
+    background-color: rgb(159, 219, 242);
+    padding: 20px;
+}
+
+.dcard{
+    background-color: rgb(48, 183, 236);
+    width: 70vw;
+    height: 63vh;
+
+    padding: 20px; 
+    margin: 10px;
+}
+
+.sep{
+    height: 2px;
+    background-color: #0e47a3ed;
+    /* width: 80%; */
+}
+
+.links a{
+    color: #3F00FF;
+}

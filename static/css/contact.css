@@ -1,0 +1,162 @@
+*{
+  font-family: 'Poppins';
+}
+
+main {
+  background-color: rgb(159, 219, 242);
+}
+
+.cd {
+  border-bottom: 3px solid #0e46a3;
+  margin: 10px;
+  padding: 10px;
+
+  background-color: rgb(48, 183, 236);
+
+  width: 340px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.ig {
+  height: 55px;
+  width: auto;
+}
+
+.cd img {
+  height: 50px;
+  width: 50px;
+}
+
+.cd p {
+  padding: 0px 15px;
+}
+
+.map iframe {
+  margin: 30px;
+  width: 700px;
+  height: 300px;
+}
+
+.bdr {
+  border: 2px solid black;
+}
+
+.feedbackform {
+  background-color: rgb(48, 183, 236);
+}
+
+.left {
+  width: 55%;
+  padding: 50px;
+}
+
+.left .smly {
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+/* .smly:hover {
+  background-color: yellow;
+} */
+
+#happy:hover{
+  background-color: lime;
+}
+#neutral:hover{
+  background-color: yellow;
+}
+#grimace:hover{
+  background-color: orange;
+}
+#frown:hover{
+  background-color: red;
+}
+
+.left .smly img {
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+}
+
+.right {
+  width: 45%;
+}
+
+label {
+  font-size: large;
+  margin: 10px 0px;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin: 0px 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid #0e46a3;
+}
+
+button {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.scl {
+  width: 270px;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 3px;
+
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.scl img {
+  height: 30px;
+  width: 30px;
+}
+
+.scl h5{
+  padding-top: 5px;
+}
+
+.scl h5 a {
+  text-decoration: none;
+  color: white;
+}
+
+#fb {
+  background-color: #4267b2ca;
+}
+
+#tw {
+  background-color: #000000b9;
+}
+
+#Ld {
+  background-color: #1B80E4c5;
+}
+
+#ist {
+  background-image: linear-gradient(
+    to right,
+    #405de6ec,
+    #5b51d8ec,
+    #833ab4ec,
+    #c13584ec,
+    #e1306cec,
+    #fd1d1dec,
+    #f56040ec,
+    #fcaf45ec,
+    #ffdc80ec
+  );
+}
